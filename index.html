@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel="stylesheet">
+<!-- =======================================Font Awesome ICONS ============================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+<!-- ======================================= Scroll Reveal ============================================ -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+<!-- ========================================= CSS ==================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+<!--=========================================== Scroll Top =============================================-->
+ <a href="#home" class="scroll-top"><i class='bx bxs-chevron-up'></i></a>
+
+<!-- ============================================ HEADER ============================================== --> 
+    <header class="header" id="home">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">M. Macaraig</a>
+            <div class="navbar-buttons">
+                <button type="button" class="button icon-button menu-toggle-button">
+                    <i class="bx bx-menu open-icon"></i>
+                    <i class="bx bx-x close-icon"></i>
+                </button>
+                <button type="button" class="button icon-button theme-toggle-button">
+                    <i class="bx bx-toggle-left theme-off"></i>
+                    <i class="bx bx-toggle-right theme-on"></i>
+                </button>
+            </div>
+            <div class="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#about" class="list-link">
+                            <span>01.</span> About Me
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#portfolio" class="list-link">
+                            <span>02.</span> Portfolio
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#contact" class="list-link">
+                            <span>03.</span> Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<!-- ========================================== Home section ============================================ --> 
+    <section class="home section" id="home">
+        <div class="container">
+            <h1 class="title home-title"> Hi, I'm Marion 
+            <p>Welcome! I am Computer Science Graduate </p></h1>
+
+            <a href="resume/cv.marionchristianmacaraig.pdf" class="btn" download="">Curriculum Vitae (PDF)<i class='bx bx-download' ></i></a>
+        </div>
+    </section>
+
+<!-- ========================================== about section =========================================== --> 
+<section class="about-me section" id="about">
+    <div class="container">
+        <h1 class="section-title-01">About Me</h1>
+        <h2 class="section-title-02">My introduction</h2>
+        <div class="section-description d-grid">
+            <div class="scroll-reveal-left">
+                <p class="about-description">
+                Hello!
+                My name is Marion Christian Macaraig and I took up Bachelor of Science in computer science and I graduated last June of 2021.
+                I am interested in Web development both Front End and Back End.
+                While waiting for a job opportunity i do online training or self study for web development because i want to pursue my career in web development
+                although I only have months in experience, however I am still learning and working in web technologies. 
+                </p>
+            </div>
+            <div class="scroll-reveal-right">
+                <div class="about-image has-stars">
+                    <img src="img/macaraig.png" alt="">
+                </div>
+
+                <h5 class="about-skills-heading">Technical Skills:</h5>
+            </div>
+        </div>
+
+        <div class="tech-stack d-grid">
+            <div class="tech-stack-item" data-tooltip="HTML5">
+                <i class="bx bxl-html5"></i>
+            </div>
+            <div class="tech-stack-item" data-tooltip="CSS3">
+                <i class="bx bxl-css3"></i>
+            </div>
+            <div class="tech-stack-item" data-tooltip="JavaScript">
+                <i class="bx bxl-javascript"></i>
+            </div>
+            <div class="tech-stack-item" data-tooltip="React">
+                <i class='bx bxl-react'></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Portfolio-->
+<section class="portfolio section" id="portfolio">
+    <div class="container">
+            <h1 class="section-title-01">Portfolio</h1>
+            <h2 class="section-title-02">Latest Works</h2> 
+        <h5 class="portfolio-heading">Some Things I've Built:</h5>
+        <div class="all-items  d-grid">
+            <div class="item">
+                <div class="left">
+                    <div class="img">
+                        <img src="img/FeaturedProject1.png" alt="" class="projects-img1">
+                    </div>
+                </div>
+                <div class="right">
+                    <h2 class="project-title">- Featured Project -</h2>
+                    <h3 class="project-sub-title">My Portfolio Website</h3>
+                    <p class="project-desc">This is a version of my personal website, which I started My interest in web development. It's built with HTML , CSS and JavaScript. This is also can received an email on my contact form.</p>
+            
+                    <div class="portfolio-links">
+                    <a href="https://github.com/macaraigmariongithub" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://macaraigmariongithub.github.io/macaraigmarion.com/" target="_blank" class="site"> <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="left">
+                  <div class="img">
+                    <img src="img/Travel&Tour.PNG" alt="" class="projects-img2">
+                  </div>
+                </div>
+                <div class="right">
+                  <h2 class="project-title">- Featured Project -</h2>
+                  <h3 class="project-sub-title">Travel and Tour Agency</h3>
+                  <p class="project-desc">This is sample project for Travel and Tour agency. I want to recreate it someday using React and tailwind but in this project I'm using HTML , CSS and JavaScript.</p>
+
+                    <div class="portfolio-links">
+                        <a href="https://github.com/macaraigmariongithub" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://macaraigmariongithub.github.io/Travel-Tour/" target="_blank" class="site"> <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="left">
+                  <div class="img">
+                    <img src="img/currencyconverter.PNG" alt="" class="projects-img3">
+                  </div>
+                </div>
+                <div class="right">
+                  <h2 class="project-title">- Featured Project -</h2>
+                  <h3 class="project-sub-title">Currency Converter</h3>
+                  <p class="project-desc">This project was inspired by codingnepal on Youtube. It is pretty cool project to enhance your skills especially when you are beginner in JavaScript like me and it's built with HMTL , CSS and JavaScript.</p>
+                    
+                    <div class="portfolio-links">
+                        <a href="https://github.com/macaraigmariongithub" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://macaraigmariongithub.github.io/currency-converter/" target="_blank" class="site"> <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="left">
+                  <div class="img">
+                    <img src="img/QrCode.PNG" alt="" class="projects-img4">
+                  </div>
+                </div>
+                <div class="right">
+                  <h2 class="project-title">- Featured Project -</h2>
+                  <h3 class="project-sub-title">Qr Code Generator</h3>
+                  <p class="project-desc">This project where my first time using react so I think it's a pretty good project. It's built with React , HTML and CSS.</p>
+                    
+                    <div class="portfolio-links">
+                        <a href="https://github.com/macaraigmariongithub" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="#" class="site"> <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="left">
+                  <div class="img">
+                    <img src="img/2nd Project.PNG" alt="" class="projects-img5">
+                  </div>
+                </div>
+                <div class="right">
+                  <h2 class="project-title">- Featured Project -</h2>
+                  <h3 class="project-sub-title">Coming Soon..</h3>
+                  <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, recusandae quisquam. Dolor sit amet Consectetur adipisicing elit.</p>
+                    
+                    <div class="portfolio-links">
+                        <a href="https://github.com/macaraigmariongithub"><i class='bx bxl-github'></i></a>
+                        <a href="#" class="site"> <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact-->
+<section class="contact section" id="contact">
+    <div class="container">
+            <h1 class="section-title-01">Contact</h1>
+            <h2 class="section-title-02">Get in Touch</h2>
+
+            <!-- <div class="section-description d-grid">
+                <div class="scroll-reveal-left">
+                    <p class="about-description">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, odit eos.
+                    </p>
+                </div>
+                <div class="scroll-reveal-right">
+                    <div class="about-image has-stars">
+                        <img src="img/christian.png" alt="">
+                    </div>
+                </div>
+            </div> -->
+
+        <div class="form-container">
+            <form action="https://formsubmit.co/marionchristianmacaraig@gmail.com" method="post" class="contact-form">
+                <div class="input-group">
+
+                    <div class="input">
+                        <input type="text" name="Name" placeholder="Your Name" class="name" required>
+
+                        <!-- <input type="text" id="name" required>
+                        <label for="name" class="input-label">Name <span class="required-field">*</span></label> -->
+                    </div>
+
+                    <div class="input">
+                        <input type="email" name="Email" placeholder="Email Address" required>
+                        <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+
+                        <!-- <input type="text" id="email" required> -->
+                        <!-- <label for="email" class="input-label">Email <span class="required-field">*</span></label> -->
+                    </div>
+                </div>
+
+                <div class="input">
+                    <input type="text" name="Message" id="message" placeholder="Write message here...">
+
+                    <!-- <label for="message" class="input-label">Message <span class="required-field">*</span></label> -->
+                </div>
+
+                <button type="submit" class="button form-button button-fill"> Send a message</button>
+            </form>
+        </div>
+    </div> 
+</section>
+
+
+<!--Footer-->
+<section class="footer" id="footer">
+        <div class="footer-box">
+            <a href=""></i> <span> Marion Christian </span></a>
+            <p>Computer Science Graduate</p>
+        </div>
+        <div class="footer-box">
+            <h2>Menu Categories</h2>
+            <a href="#about"> <u>About</u></a>
+            <a href="#portfolio"> <u>Portfolio</u></a>
+            <a href="#contact"> <u>Contact</u></a>
+        </div>
+
+        <div class="footer-box">
+            <h2>Social Links</h2>
+            <a href="mailto:marionchristianmacaraig@gmail.com"><i class='bx bx-envelope' ></i></a>
+            <a href="https://www.linkedin.com/in/marionChristianmacaraig" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/macaraigmariongithub" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+
+        <div class="footer-box">
+            <h2>Message Me</h2>
+            <i class='bx bxs-phone'> <span>09994182301</span></i>
+            <i class='bx bx-envelope'> <span>marionchristianmacaraig@gmail.com</span></i>
+        </div>
+</section>
+
+        <!--Copyright-->
+        <div class="copyright">
+            <!-- <p>&#169; Macaraig 2022 All right reserved</p> -->
+
+            <p> ✝  Saved by His grace || Isaiah 41:10 
+            <br><br>
+            &#169; Macaraig 2022 All right reserved</p>
+        </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
